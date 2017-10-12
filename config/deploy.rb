@@ -21,8 +21,6 @@ namespace :deploy do
     invoke 'unicorn:restart'
   end
 end
-set :application, "my_app_name"
-set :repo_url, "git@example.com:me/my_repo.git"
 
 
 

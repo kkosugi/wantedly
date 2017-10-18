@@ -1,4 +1,61 @@
-p {
-  height: 60px;
-  text-align: center;
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    position: relatives;
 }
+
+.header {
+  height: 60px;
+  min-width: 980px;
+}
+
+.header-logo {
+  height: 70px;
+  width: 70px;
+  float: left;
+  position: relative;
+  left: 10px;
+  top: 10px;
+}
+
+.global-menu{
+  vertical-align: middle;
+  line-height: 60px;
+  float: left;
+  display: inline;
+  text-decoration: none;
+}
+
+.right-header {
+  float: right;
+  top: 10px;
+  right: 10px
+}
+.user-profile-photo {
+  vertical-align: middle;
+  line-height: 60px;
+  float: right;
+  display: inline-block;
+  radius: 50%;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+i {
+  height: 40px;
+  width: 40px;
+}
+

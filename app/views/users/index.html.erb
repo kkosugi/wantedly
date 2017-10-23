@@ -8,8 +8,40 @@
   <div id="container">
   <div id="main-outer" class="cf">
     <%= render partial: "header" %>
-  <div id="project-index-sub-header">
-    <div id="featured-projects">
-      <div class="featured-nav-left" style="display: block;">
+    <div id="project-index-sub-header">
+    <%= render partial: "swiper" %>
+    </div>
+  </div>
 
+<div id="main">
+  <div id="side-culumn">
+    <div class="project__filter">
+      <h4 class="search__condition">検索条件</h4>
+    </div>
+    <div class="project__search">
+      <div class="project__search__frame">
+        <p class="project__search__frame__content">ディレクター</p>
+        <h5 class="project__search__frame__label">職種</h5>
+        <i class="fa fa-angle-down">…</i>
       </div>
+      <div class="project__search__frame">
+        <p class="project__search__frame__content">中途採用</p>
+        <h5 class="project__search__frame__label">採用形態</h5>
+        <i class="fa fa-angle-down">…</i>
+      </div>
+      <div class="project__search__append">
+        <i class="fa fa-search"></i>
+        <input class="project__search__append__content" placeholder="地域や特徴などの条件を追加" type="text">
+      </div>
+      <div class="project__search__list">
+        <ul>
+          <li>HIP-HOP</li>
+          <li>R&B</li>
+          <li>ROCK</li>
+          <li>EDM</li>
+        </ul>
+      </div>
+    <div class="project__filter">
+      <h4 class="project__filter__title">地域</h4>
+    </div>
+
